@@ -7,7 +7,7 @@ import pytesseract
 image = cv2.imread('demo.jpg')
 
 # Resize the image - change width to 500
-image = imutils.resize(image, width=500)
+image = imutils.resize(image, width=600)
 
 # Display the original image
 cv2.imshow("Original Image", image)
